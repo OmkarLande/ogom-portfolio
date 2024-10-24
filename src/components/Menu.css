@@ -8,6 +8,20 @@ p {
     line-height: 100%;
 }
 
+.menu-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    padding: 2em;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    height: 120px;
+    
+}
+
 .menu-bar,
 .menu-overlay-bar {
     position: fixed;
@@ -27,9 +41,21 @@ p {
     cursor: pointer;
 }
 
+.menu-open {
+    cursor: pointer;
+}
+
+.menu-close {
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
 .menu-close p {
     color: #000;
     cursor: pointer;
+    
 }
 
 .menu-overlay {

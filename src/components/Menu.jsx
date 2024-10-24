@@ -56,7 +56,7 @@ export const Menu = () => {
     }, [isMenuOpen]);
 
     return (
-        <div className="menu-container" ref={container}>
+        <div className="menu-container p-4 flex items-center justify-around relative" ref={container}>
             <div className="menu-bar">
                 <div className="menu-logo">
                     <Logo />
@@ -93,7 +93,7 @@ export const Menu = () => {
                         </motion.p>
                     </div>
                 </div>
-                <div className="menu-close-icon">
+                <div className="menu-close-icon" onClick={toggleMenu}>
                     <p>&#x2715;</p>
                 </div>
                 <div className="menu-copy">
