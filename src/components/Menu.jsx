@@ -13,7 +13,7 @@ const menuLinks = [
   { path: "/", label: "Home" },
   { path: "/projects", label: "Projects" },
   { path: "/contact", label: "Contact" },
-  { path: "/experiences", label: "Experience" },
+  { path: "/experience", label: "Experience" },
   { path: "/skills", label: "Skills" },
 ];
 

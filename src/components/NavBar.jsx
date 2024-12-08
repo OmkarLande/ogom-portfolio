@@ -58,7 +58,7 @@ const NavLeft = () => {
                     Skills
                 </motion.div>
             </Link>
-            <Link href="/experiences">
+            <Link href="/experience">
                 <motion.div
                     whileHover={{ scale: 1.25, color: "#F67831", rotate: "-1.2deg" }}
                     whileTap={{ scale: 0.95, rotate: "5deg" }}

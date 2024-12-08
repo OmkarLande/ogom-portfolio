@@ -1,17 +1,20 @@
+"use client"
+
+import ContactBlock from "@/components/ContactBlock";
 import Introductions from "@/components/Introductions";
-import Contact from "./contact/page";
-import Experiences from "./experiences/page";
-import Projects from "./projects/page";
-import Skills from "./skills/page";
+import ProjectBlock from "@/components/ProjectBlock";
+import SkillBlock from "@/components/SkillBlock";
+import Experience from "./experience/page";
+
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex-1 gap-6">
       <Introductions />
-      <Experiences />
-      <Projects />
-      <Skills />
-      <Contact />
+      <Experience />
+      <ProjectBlock />
+      <SkillBlock />
+      <ContactBlock />
     </main>
   );
 }

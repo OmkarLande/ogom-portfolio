@@ -1,6 +1,5 @@
 import { Raleway } from "next/font/google";
 import "./globals.css";
-import { NavBar } from "@/components/NavBar";
 import { Menu } from "@/components/Menu";
 
 const raleway = Raleway({ subsets: ["latin"] });
