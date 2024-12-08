@@ -1,9 +1,9 @@
-import { Inter } from "next/font/google";
+import { Raleway } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/components/NavBar";
 import { Menu } from "@/components/Menu";
 
-const inter = Inter({ subsets: ["latin"] });
+const raleway = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="bg-bg-color">
-      <body className={inter.className}>
+      <body className={raleway.className}>
         {/* <NavBar /> */}
         <Menu />
         {children}

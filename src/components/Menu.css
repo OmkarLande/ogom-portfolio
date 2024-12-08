@@ -101,7 +101,7 @@ p {
 
 .menu-link-item {
     width: max-content;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
 }
 
 .menu-link-item-holder {
@@ -109,11 +109,11 @@ p {
 }
 
 .menu-link-item-holder a {
-    color: 0#000;
+    /* color: 0#000; */
     font-size: 80px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    line-height: 85%;
+    line-height: 105%;
 }
 
 .menu-info {
