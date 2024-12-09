@@ -166,7 +166,7 @@ export function ExpandableCard() {
               <div className="flex justify-center items-center flex-col">
                 <motion.h3
                   layoutId={`title-${card.title}-${id}`}
-                  className="font-medium text-black text-center md:text-left text-base"
+                  className="font-bold text-black text-center md:text-left text-base"
                 >
                   {card.title}
                 </motion.h3>
@@ -234,7 +234,7 @@ const cards = [
     ],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           📚{" "}
           <span className=" ">
             Traditional note-taking and revision methods
@@ -286,7 +286,7 @@ const cards = [
     technologies: ["React", "Express.js", "MongoDB", "Node.js", "Razorpay"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             ✨{" "}
             <span className="font-bold text-lg">
@@ -327,7 +327,7 @@ const cards = [
     technologies: ["MDX", "Next.js", "Javascript"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             ✍️ <span className="font-bold text-lg">Redefined blogging</span> by
             leveraging the power of{" "}
@@ -368,7 +368,7 @@ const cards = [
     technologies: ["React", "GoLang", "Tailwind CSS", "MongoDB", "Node.js"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             📇{" "}
             <span className="font-bold text-lg">
@@ -406,6 +406,59 @@ const cards = [
       );
     },
   },
+  {
+    description: "Automated Sudoku Solver Platform",
+    title: "Sudoku Solver",
+    src: "/sudoku.png",
+    ctaText: "Visit",
+    ctaLink: "https://sudoku-solver.omkarlande.me/",
+    technologies: ["GoLang", "Backtracking", "HTML", "CSS", "Javascript"],
+    content: () => {
+      return (
+        <div className="text-og-dark leading-relaxed">
+          <p>
+            🧩{" "}
+            <span className="font-bold text-lg text-blue-500">
+              A Sudoku solver implemented in Golang
+            </span>{" "}
+            utilizes the{" "}
+            <span className="text-green-600 font-semibold">
+              backtracking algorithm
+            </span>{" "}
+            to efficiently solve Sudoku puzzles.
+          </p>
+          <br />
+          <p>
+            🔄 This approach involves{" "}
+            <span className="italic">recursively</span> attempting to place
+            numbers in empty cells while adhering to{" "}
+            <span className="font-bold text-purple-500">Sudoku rules</span>. If
+            a conflict arises, the algorithm{" "}
+            <span className="text-red-500 font-semibold">backtracks</span> to
+            the previous step and tries a different number, ensuring that all
+            possible solutions are explored until the puzzle is solved.
+          </p>
+          <br />
+          <p>
+            🚀 By leveraging{" "}
+            <span className="font-bold text-blue-500">
+              Golang's performance
+            </span>{" "}
+            and{" "}
+            <span className="text-green-600 font-semibold">
+              concurrency features
+            </span>
+            , the solver can handle{" "}
+            <span className="font-bold text-purple-500">complex puzzles</span>{" "}
+            with ease, providing a{" "}
+            <span className="font-semibold text-yellow-500">robust</span> and{" "}
+            <span className="italic text-og-pri">efficient solution</span>{" "}
+            for Sudoku enthusiasts.
+          </p>
+        </div>
+      );
+    },
+  },
 
   {
     description: "Form Builder Application",
@@ -416,7 +469,7 @@ const cards = [
     technologies: ["Next.js", "Tailwind CSS", "Typescript", "Zod", "Prisma"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             📝{" "}
             <span className="font-bold text-lg text-blue-500">
@@ -479,7 +532,7 @@ const cards = [
     technologies: ["Next.js", "LiveBlocks", "Tailwind CSS", "Typescript"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             🎨 <span className="font-bold text-lg text-blue-500">Sculpt</span>{" "}
             is a <span className="italic text-green-600">Figma clone</span>{" "}
@@ -527,7 +580,7 @@ const cards = [
     technologies: ["React", "MongoDB", "Express.js", "Node.js", "Tailwind CSS"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             🚀 <span className="font-bold text-lg text-blue-500">EduSpark</span>{" "}
             is a{" "}
@@ -563,7 +616,7 @@ const cards = [
     technologies: ["HTML", "CSS", "Javascript", "Node.js", "Firebase"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             ✅{" "}
             <span className="font-bold text-lg text-blue-500">Task Champ</span>{" "}
@@ -608,7 +661,7 @@ const cards = [
     technologies: ["Html", "Css"],
     content: () => {
       return (
-        <div className="font-sans text-gray-800 leading-relaxed">
+        <div className=" text-og-dark leading-relaxed">
           <p>
             🌍{" "}
             <span className="font-bold text-lg text-blue-500">
