@@ -66,7 +66,7 @@ export function ExpandableCard() {
             <motion.div
               layoutId={`card-${active.title}-${id}`}
               ref={ref}
-              className="w-full max-w-[500px]  h-full md:h-fit md:max-h-[90%]  flex flex-col bg-og-white sm:rounded-3xl overflow-hidden"
+              className="w-full max-w-[500px] h-full md:h-fit md:max-h-[90%] flex flex-col bg-og-white sm:rounded-3xl overflow-hidden max-h-[90vh] overflow-y-auto no-scrollbar"
             >
               <motion.div layoutId={`image-${active.title}-${id}`}>
                 <Image
@@ -406,7 +406,7 @@ const cards = [
       );
     },
   },
-  
+
   {
     description: "Form Builder Application",
     title: "Chisel",
