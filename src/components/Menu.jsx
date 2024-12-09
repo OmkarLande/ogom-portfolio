@@ -130,19 +130,19 @@ export const Menu = () => {
           </div>
           <div className="menu-info">
             <div className="menu-info-col hover:text-white">
-              <a className="hover:text-white" href="#">
+              <a className="hover:text-white" href="https://x.com/og_om534">
                 X &#8599;
               </a>
-              <a className="hover:text-white" href="#">
+              <a className="hover:text-white" href="https://github.com/OmkarLande">
                 Github &#8599;
               </a>
-              <a className="hover:text-white" href="#">
+              <a className="hover:text-white" href="https://dribbble.com/OmkarLande">
                 Dribble &#8599;
               </a>
-              <a className="hover:text-white" href="#">
+              <a className="hover:text-white" href="https://www.linkedin.com/in/omkarlande/">
                 LinkedIn &#8599;
               </a>
-              <a className="hover:text-white" href="#">
+              <a className="hover:text-white" href="https://www.instagram.com/og._.om/">
                 Instagram &#8599;
               </a>
             </div>
