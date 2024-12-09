@@ -163,6 +163,7 @@ export const Menu = () => {
 const Logo = () => {
   return (
     <motion.div whileHover={{ scale: 1.2 }}>
+
       <Image src="/logo.svg" alt="logo" width={80} height={80} />
     </motion.div>
   );

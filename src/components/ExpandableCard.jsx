@@ -236,7 +236,7 @@ const cards = [
       return (
         <div className="font-sans text-gray-800 leading-relaxed">
           📚{" "}
-          <span className="font-bold text-lg">
+          <span className=" ">
             Traditional note-taking and revision methods
           </span>{" "}
           often fall short in helping individuals keep track of vast amounts of
